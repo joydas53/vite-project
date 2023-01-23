@@ -10,11 +10,7 @@ function App() {
     { x: 8, y: 26, color: "#995566" },
     { x: 9, y: 16, color: "#afaf32" },
   ];
-  return (
-    <div className="App">
-      <Dotgraph props={data} />
-    </div>
-  );
+  return <Dotgraph props={data} />;
 }
 
 export default App;

@@ -1,0 +1,103 @@
+// Vitest Snapshot v1
+
+exports[`HelloWorld > HelloWorld component renders correctly 1`] = `
+<div
+  className="bg-black/60 w-4/5 h-[calc(100vh/2)] relative mx-auto my-14 before:absolute before:w-full before:h-1
+      before:bg-white before:bottom-0 before:left-0 after:absolute after:w-1 after:h-full after:bg-white after:bottom-0 after:left-0"
+  style={
+    {
+      "overflow": "hidden",
+    }
+  }
+>
+  <span
+    className="mx-2 p-1 rounded-md absolute 
+       after:left-1/2 after:-translate-x-1/2 group brightness-150
+       shadow-inner"
+    style={
+      {
+        "backgroundColor": "cyan",
+        "bottom": "50pt",
+        "left": "15rem",
+      }
+    }
+  >
+    <span
+      className="dots-line"
+      style={
+        {
+          "backgroundColor": "cyan",
+          "boxShadow": "0 0 10px 1px cyan",
+          "height": "50vh",
+          "left": "50%",
+          "opacity": 0.5,
+          "position": "absolute",
+          "top": "50%",
+          "transform": "translateX(-50%)",
+          "width": "1.2pt",
+        }
+      }
+    />
+    <span
+      className="absolute opacity-0 
+              bottom-full group-hover:opacity-80 transition-all
+              delay-500"
+    >
+      5
+      ,
+      10
+    </span>
+  </span>
+</div>
+`;
+
+exports[`HelloWorld > The greetee prop works 1`] = `
+<div
+  className="bg-black/60 w-4/5 h-[calc(100vh/2)] relative mx-auto my-14 before:absolute before:w-full before:h-1
+      before:bg-white before:bottom-0 before:left-0 after:absolute after:w-1 after:h-full after:bg-white after:bottom-0 after:left-0"
+  style={
+    {
+      "overflow": "hidden",
+    }
+  }
+>
+  <span
+    className="mx-2 p-1 rounded-md absolute 
+       after:left-1/2 after:-translate-x-1/2 group brightness-150
+       shadow-inner"
+    style={
+      {
+        "backgroundColor": "cyan",
+        "bottom": "50pt",
+        "left": "15rem",
+      }
+    }
+  >
+    <span
+      className="dots-line"
+      style={
+        {
+          "backgroundColor": "cyan",
+          "boxShadow": "0 0 10px 1px cyan",
+          "height": "50vh",
+          "left": "50%",
+          "opacity": 0.5,
+          "position": "absolute",
+          "top": "50%",
+          "transform": "translateX(-50%)",
+          "width": "1.2pt",
+        }
+      }
+    />
+    <span
+      className="absolute opacity-0 
+              bottom-full group-hover:opacity-80 transition-all
+              delay-500"
+    >
+      5
+      ,
+      10
+    </span>
+  </span>
+</div>
+`;
